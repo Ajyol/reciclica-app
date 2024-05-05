@@ -1,0 +1,67 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="success">
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        What do you want to do with the waste?
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-radio-group>
+        <ion-item><ion-radio value="CLIENT">Buy</ion-radio><br /></ion-item>
+        <ion-item><ion-radio value="PARTNER">Sell</ion-radio><br /></ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        Contact
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-input label="Name" labelPlacement="floating" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Email" labelPlacement="floating" type="Email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Password" labelPlacement="floating" type="password"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Confirm Password" labelPlacement="floating" type="password"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Phone numer" labelPlacement="floating" type="tel"></ion-input>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Address information</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-input label="Street" labelPlacement="floating" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="City" labelPlacement="floating" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="State" labelPlacement="floating" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Zip" labelPlacement="floating" type="text"></ion-input>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+  <ion-button size="full" color="light">Register</ion-button>
+</ion-content>
